@@ -33,6 +33,15 @@ DELETE /transactions/:id
 ### Ver saldo
 GET /balance
 
+## 🎯 Objetivo
+
+Este projeto foi desenvolvido com o objetivo de praticar desenvolvimento back-end com Node.js, criação de APIs REST e manipulação de dados.
+
+
+## 👩‍💻 Desenvolvido por
+
+Alice Medina
+
 ## Como rodar o projeto
 
 ```bash
@@ -49,13 +58,4 @@ node server.js
   "category": "Trabalho",
   "date": "2026-04-02"
 }
-
-```md
-## 🎯 Objetivo
-
-Este projeto foi desenvolvido com o objetivo de praticar desenvolvimento back-end com Node.js, criação de APIs REST e manipulação de dados.
-
-## 👩‍💻 Desenvolvido por
-
-Alice Medina
 
