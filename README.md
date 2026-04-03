@@ -1,10 +1,10 @@
-# >>> API de Controle Financeiro
+# 💰 API de Controle Financeiro
 
 API REST desenvolvida com Node.js e Express para gerenciamento de transações financeiras.
 
 ---
 
-## >>> Funcionalidades
+## 🚀 Funcionalidades
 
 - Criar transações (income / expense)
 - Listar todas as transações
@@ -16,7 +16,7 @@ API REST desenvolvida com Node.js e Express para gerenciamento de transações f
 
 ---
 
-## >>> Tecnologias
+## 🛠 Tecnologias
 
 - Node.js
 - Express
@@ -24,7 +24,7 @@ API REST desenvolvida com Node.js e Express para gerenciamento de transações f
 
 ---
 
-## >>> Rotas da API
+## 📌 Rotas da API
 
 ### ➕ Criar transação
 POST /transactions
@@ -50,15 +50,16 @@ GET /balance
 
 ---
 
-## >>> Como rodar o projeto
+## 📦 Como rodar o projeto
 
 ```bash
 npm install
 node server.js
 ```
 
-##🧪 Exemplo de requisição
+---
 
+##Exemplo de requisição
 {
   "title": "Salário",
   "amount": 2500,
@@ -67,17 +68,20 @@ node server.js
   "date": "2026-04-02"
 }
 
-## >>> Objetivo
+---
+
+🎯 Objetivo
 
 Este projeto foi desenvolvido com o objetivo de praticar desenvolvimento back-end com Node.js, criação de APIs REST e manipulação de dados.
-node server.js
 
-## >>> Próximas melhorias
+---
 
+🔥 Próximas melhorias
 Integração com banco de dados (MongoDB ou PostgreSQL)
 Autenticação de usuários
 Organização em camadas (MVC)
 
-👩‍💻 Desenvolvido por
+---
 
+👩‍💻 Desenvolvido por
 Alice Medina Roessler
