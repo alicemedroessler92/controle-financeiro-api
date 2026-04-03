@@ -67,12 +67,12 @@ node server.js
   "date": "2026-04-02"
 }
 
->>> Objetivo
+## >>> Objetivo
 
 Este projeto foi desenvolvido com o objetivo de praticar desenvolvimento back-end com Node.js, criação de APIs REST e manipulação de dados.
 node server.js
 
->>> Próximas melhorias
+## >>> Próximas melhorias
 
 Integração com banco de dados (MongoDB ou PostgreSQL)
 Autenticação de usuários
