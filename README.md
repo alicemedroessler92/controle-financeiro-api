@@ -1,56 +1,64 @@
-# API de Controle Financeiro
+# >>> API de Controle Financeiro
 
-API REST desenvolvida em Node.js com Express para gerenciamento de transações financeiras.
+API REST desenvolvida com Node.js e Express para gerenciamento de transações financeiras.
 
-## Funcionalidades
+---
 
-- Criar transações (entrada e saída)
-- Listar transações
+## >>> Funcionalidades
+
+- Criar transações (income / expense)
+- Listar todas as transações
+- Buscar transação por ID
 - Atualizar transações
 - Deletar transações
+- Filtrar transações por tipo (income / expense)
 - Calcular saldo total
 
-## Tecnologias
+---
+
+## >>> Tecnologias
 
 - Node.js
 - Express
 - JavaScript
 
-## Rotas da API
+---
 
-### Criar transação
+## >>> Rotas da API
+
+### ➕ Criar transação
 POST /transactions
 
-### Listar transações
+### 📄 Listar transações
 GET /transactions
 
-### Atualizar transação
+### 🔍 Buscar transação por ID
+GET /transactions/:id
+
+### ✏️ Atualizar transação
 PUT /transactions/:id
 
-### Deletar transação
+### ❌ Deletar transação
 DELETE /transactions/:id
 
-### Ver saldo
+### 🔎 Filtrar por tipo
+GET /transactions?type=income  
+GET /transactions?type=expense
+
+### 💰 Ver saldo
 GET /balance
 
-## 🎯 Objetivo
+---
 
-Este projeto foi desenvolvido com o objetivo de praticar desenvolvimento back-end com Node.js, criação de APIs REST e manipulação de dados.
-
-
-## 👩‍💻 Desenvolvido por
-
-Alice Medina
-
-## Como rodar o projeto
+## >>> Como rodar o projeto
 
 ```bash
 npm install
 node server.js
+```
 
-## Exemplo de requisição
+##🧪 Exemplo de requisição
 
-```json
 {
   "title": "Salário",
   "amount": 2500,
@@ -59,3 +67,17 @@ node server.js
   "date": "2026-04-02"
 }
 
+>>> Objetivo
+
+Este projeto foi desenvolvido com o objetivo de praticar desenvolvimento back-end com Node.js, criação de APIs REST e manipulação de dados.
+node server.js
+
+>>> Próximas melhorias
+
+Integração com banco de dados (MongoDB ou PostgreSQL)
+Autenticação de usuários
+Organização em camadas (MVC)
+
+👩‍💻 Desenvolvido por
+
+Alice Medina Roessler
