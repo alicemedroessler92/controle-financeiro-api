@@ -1,25 +1,19 @@
-💰 Controle Financeiro API
+# 💰 Controle Financeiro API
 
-API REST para gerenciamento de finanças pessoais, permitindo controle de receitas e despesas.
+API REST para gerenciamento de receitas e despesas.
 
-🚀 Funcionalidades
-•  Cadastro de usuários
-•  Autenticação (JWT)
-•  CRUD de receitas e despesas
-•  Filtro por data e tipo
+## 🚀 Tecnologias
+- Node.js
+- JavaScript
+- Express
 
-🛠 Tecnologias
-•  Node.js
-•  Express
-•  Banco de dados (coloque aqui o seu)
-•  JWT para autenticação
+## 📌 Funcionalidades
+- Cadastro de receitas
+- Cadastro de despesas
+- Listagem de transações
+- Cálculo de saldo
 
-📌 Arquitetura
-API estruturada em camadas (controllers, services, repositories), seguindo boas práticas de organização.
-
-▶️ Como rodar o projeto
-
-```bash
-git clone ...
-npm install
-npm run dev
+## ▶️ Como rodar
+1. Clone o repositório
+2. npm install
+3. npm run dev
