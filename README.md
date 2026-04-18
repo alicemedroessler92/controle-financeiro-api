@@ -2,18 +2,20 @@
 
 API REST para gerenciamento de receitas e despesas.
 
-## 🚀 Tecnologias
+## 🚀 Funcionalidades
+
+- Criar transações
+- Listar transações
+- Validação de dados
+
+## 🛠 Tecnologias
+
 - Node.js
-- JavaScript
 - Express
+- JavaScript
 
-## 📌 Funcionalidades
-- Cadastro de receitas
-- Cadastro de despesas
-- Listagem de transações
-- Cálculo de saldo
+## ▶️ Como rodar o projeto
 
-## ▶️ Como rodar
-1. Clone o repositório
-2. npm install
-3. npm run dev
+```bash
+npm install
+node server.js
