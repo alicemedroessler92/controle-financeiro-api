@@ -1,20 +1,20 @@
 # 💰 Controle Financeiro API
 
-API REST para gerenciamento de receitas e despesas pessoais, com suporte a criação, listagem, atualização e remoção de transações.
+API REST para gerenciamento de receitas e despesas pessoais, com suporte a criação, listagem, atualização e remoção de transações. Os dados são persistidos em banco de dados SQLite.
 
 ## 🛠 Tecnologias
 
 - Node.js
 - Express
 - JavaScript
+- SQLite (better-sqlite3)
 
 ## 📌 Funcionalidades
 
 - Cadastro de receitas e despesas
-- Listagem e filtragem de transações
+- Listagem de transações
 - Atualização e remoção de transações
-- Cálculo de saldo atual
-- Validação de dados de entrada
+- Persistência de dados com banco de dados local
 
 ## ▶️ Como rodar
 
@@ -22,22 +22,22 @@ API REST para gerenciamento de receitas e despesas pessoais, com suporte a cria�
 # Clone o repositório
 git clone https://github.com/alicemedroessler92/controle-financeiro-api.git
 
-# Instale as dependências
+# Entre na pasta
 cd controle-financeiro-api
+
+# Instale as dependências
 npm install
 
 # Inicie o servidor
-npm run dev
+node server.js
 ```
 
 ## 🔗 Endpoints
 
 | Método | Rota | Descrição |
 |--------|------|-----------|
-| GET | /transacoes | Lista todas as transações |
-| POST | /transacoes | Cria uma nova transação |
-| PUT | /transacoes/:id | Atualiza uma transação |
-| DELETE | /transacoes/:id | Remove uma transação |
+| GET | /transactions | Lista todas as transações |
+| POST | /transactions | Cria uma nova transação |
 
 ## 👩‍💻 Autora
 
